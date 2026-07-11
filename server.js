@@ -13,10 +13,7 @@ const port = process.env.PORT;
 
 app.use(
   cors({
-    origin: [
-      "https://pos-frontend-seven-pi.vercel.app",
-      "http://localhost:5173",
-    ],
+    origin: ["https://pos-frontend-blush.vercel.app", "http://localhost:5173"],
   }),
 );
 app.use(express.json());
